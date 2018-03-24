@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+.question{
+    margin: auto;
+    width: 600px;
+    height: auto;
+    border: 1px solid grey;
+    padding: 15px;
+    margin-top: 250px;
+}
+
+.signup, .login{
+    color: white;
+    font-size: 17px;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+a{
+    border: 1px solid grey;
+    padding: 12px;
+    color: white;
+    transition: all ease 0.3s;
+}
+
+a:hover{
+    color: #000;
+    background: #fff;
+    transition: all ease 0.3s;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .login{
+        margin-top: 20px;
+    }
+
+    .question{
+		width: 100%;
+		margin-top: 0;
+    }
+}

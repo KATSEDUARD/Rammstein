@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+}
+
+.validate{
+    color: white;
+}
+
+button.submit__btn{
+    background: #000;
+    border: 2px solid white;
+    color: #fff;
+    padding: 7px;
+    transition: all ease 0.3s;
+}
+
+button.submit__btn:hover{
+    background: #fff;
+    color: #000;
+    transition: all ease 0.3s;
+}
+
+h3{
+    color: white;
+}

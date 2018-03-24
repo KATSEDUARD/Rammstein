@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.find{
+    width: 200px!important;
+    color: white;
+    border: 1px solid #ffffff!important;
+    border-radius: 5px !important;
+    padding-left: 7px!important;
+    margin-right: 10px!important;
+    margin-top: 15px!important;
+}
+.text{
+    color: #ffffff;
+}
+
+.search{
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+    background: black;
+    transition: all ease .3s;
+}
+
+.search:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+form span{
+    margin-right: 10px;
+}
+
+form{
+    color: white!important;
+}
+
+.card{
+    border: 1px solid white;
+    background: #000000;
+    color: white;
+}
+
+.error{
+    color: white;
+    margin: 50px;
+}
+
+.card:hover{
+    cursor: pointer;
+    background: rgb(53, 50, 50);
+    transition: all ease 0.3s;
+}
+
+.radiobutt {
+    vertical-align: top;
+    width: 17px;
+    height: 17px;
+    margin: 0 3px 0 0;
+}
+
+.radiobutt + label {
+    cursor: pointer;
+}
+  .radiobutt:not(checked) {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+  }
+  .radiobutt:not(checked) + label {
+    position: relative;
+    padding: 0 0 0 35px;
+  }
+  .radiobutt:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #CDD1DA;
+    border-radius: 50%;
+  }
